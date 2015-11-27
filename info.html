@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <title>indie merch store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Muli:300,300italic%7CSanchez' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="header">
+        <a href="index.html"><h1>Indie Merch Store</h1></a>
+        <div id="nav">
+            <ul>
+                <li><a href="merch.html">band merch</a></li>
+                <li><a href="#">albums</a></li>
+                <li><a href="#">posters</a></li>
+                <li><a href="login.html">sign in</a></li>
+                <li> | </li>
+                <li><a href="cart.html">shopping cart <span>3 </span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="section" id="productInfo">
+        <div class="infoWrapper">
+            <img src="images/info.jpg" alt="shirt">
+            <h3>Circa Survive - Raven white</h3>
+            <p><br><br>Item #28527</p>
+            <form>
+                <select name="gender">
+                    <option value="gender">gender</option>
+                    <option value="men">men</option>
+                    <option value="women">women</option>
+                </select>
+                <select name="size">
+                    <option value="default">size</option>
+                    <option value="XS">extra small</option>
+                    <option value="S">small</option>
+                    <option value="M">medium</option>
+                    <option value="L">large</option>
+                    <option value="XL">extra large</option>
+                </select>
+                quantity: <input type="number" id="quantity">
+            </form>
+            <h2 class="green"> $20</h2>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+    </div>
+    <div class="section">
+        <h1 class="midHeader">more from this artist:</h1>
+        <div class="arrivals">
+            <a class="itemBox" href="info.html">
+                <img src="images/shirt10.jpg" alt="shirt">
+                <div class="boxInfo">
+                    <p>circa survive<br>enflamed</p>
+                    <p class="price">$20</p>
+                </div>
+            </a>
+            <a class="itemBox" href="info.html">
+                <img src="images/shirt2.jpg" alt="shirt">
+                <div class="boxInfo">
+                    <p>circa survive<br>memory heather</p>
+                    <p class="price">$20</p>
+                </div>
+            </a>
+            <a class="itemBox" href="info.html">
+                <img src="images/shirt3.jpg" alt="shirt">
+                <div class="boxInfo">
+                    <p>dance gavin dance<br>pittbull</p>
+                    <p class="price">$20</p>
+                </div>
+            </a>
+            <a href="merch.html" class="btn">see more</a>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footerWrapper">
+        <ul class="social">
+            <li><a href="https://www.facebook.com/IndieMerchstore"><span class="icon-facebook"></span></a></li>
+            <li><a href="https://twitter.com/IndieMerchstore"><span class="icon-twitter"></span></a></li>
+            <li><a href="#"><span class="icon-googleplus"></span></a></li>
+            <li><a href="mailto:info@indiemerchstore.com?subject=product%20inquiry"><span class="icon-mail"></span></a></li>
+        </ul>
+        <input placeholder="sign up for our newsletter">
+        </div>
+        <p>Copyright indiemerchstore 2014. <span>All rights reserved.</span></p>
+        
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <script src="javascript/javascript.js"></script> 
+</body>
+
+</html>
